@@ -1,0 +1,5 @@
+tables:
+  Sell-Through:
+    partitions:
+      Sell-Through:
+        source: {}
