@@ -1,0 +1,52 @@
+title: bi
+code: bi
+platform: main
+layers:
+  api:
+  ui:
+  data:
+  dwh_sa:
+  db:
+    options:
+        schemas:
+            - bi
+            - md_bi
+  dwh:
+      options:
+        schemas:
+            - bi
+            - md_bi
+            - tbm_bi
+  tabularBI:
+    type: tabular
+using:
+  mod/dataquality-geo/mdt: main
+  mod/dataquality-geo/dwh: main
+  mod/dataquality-geo/dwh-sop: main
+  mod/master-model/mdt: main
+  mod/master-model/dwh: main
+  mod/master-model/dwh-sop: main
+  mod/master-model-fact/primarySales: main
+  mod/master-model-fact/secondarySales: main
+  mod/master-model-fact/matrix: main
+  mod/master-model-fact/contract: main
+  mod/master-model-fact/mdlp: main
+  mod/master-model-fact/offtake: main
+  mod/dataquality-geocluster/mdt: main
+  mod/dataquality-geocluster/dwh: main
+  mod/calendar-client/mdt: main
+  mod/calendar-client/dwh: main
+  mod/sop-integration/md: main
+  mod/sop-integration/geo: main
+  mod/sop-integration/price: main
+  mod/sop-integration/split: main
+  mod/sop-integration/base: main
+  mod/dwh-core/dwh-sop: main
+  ics/datamart/freezing: main
+  etl2/dcore: main
+  mod/routes/mdt-mm: main
+  mod/routes/mdt: main
+  mod/uom/mdt: main
+  mod/uom/dwh: main
+  mod/uom/dwh-sop: main
+  mod/tabular-model/composite: main
