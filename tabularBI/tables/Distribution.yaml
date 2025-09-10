@@ -1,5 +1,0 @@
-tables:
-  Distribution:
-    partitions:
-      Distribution:
-        source: {}

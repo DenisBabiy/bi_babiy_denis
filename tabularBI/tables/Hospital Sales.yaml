@@ -1,5 +1,0 @@
-tables:
-  Hospital Sales:
-    partitions:
-      Hospital Sales:
-        source: {}

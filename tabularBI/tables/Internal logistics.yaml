@@ -1,5 +1,0 @@
-tables:
-  Internal logistics:
-    partitions:
-      Internal logistics:
-        source: {}

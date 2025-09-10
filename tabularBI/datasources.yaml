@@ -1,3 +1,0 @@
-dataSources:
-  DWH:
-    provider: System.Data.OleDb

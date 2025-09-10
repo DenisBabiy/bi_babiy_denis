@@ -1,5 +1,0 @@
-tables:
-  In Market Sales:
-    partitions:
-      In Market Sales:
-        source: {}
