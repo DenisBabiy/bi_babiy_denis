@@ -1,6 +1,3 @@
-BI Routes:
-  Routes:
-    Daily route start tasks: 
     Import BI tables from MDT to DWH:
       ExecutionOrder: 140
 
