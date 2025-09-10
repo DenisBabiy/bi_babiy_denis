@@ -1,0 +1,5 @@
+tables:
+  Other Sales:
+    partitions:
+      Other Sales:
+        source: {}

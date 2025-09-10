@@ -1,0 +1,5 @@
+tables:
+  Sell-In:
+    partitions:
+      Sell-In:
+        source: {}

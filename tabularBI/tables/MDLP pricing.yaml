@@ -1,0 +1,5 @@
+tables:
+  MDLP pricing:
+    partitions:
+      MDLP pricing:
+        source: {}
