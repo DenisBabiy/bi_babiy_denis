@@ -11,8 +11,8 @@ select
 	,isnull(bu.Name, 'Unknown') collate Cyrillic_General_100_CI_AI				as BusinessUnit
 from dim.SKU as s
 	left join dim.Brand as b on b.ID = s.ID_Brand
-	LEFT JOIN md_bi.SKUAdditionalInfo AS sai ON sai.ID = s.ID
-	LEFT JOIN bi.BusinessUnit AS bu ON bu.ID = sai.ID_bi_BusinessUnit
+	left join md_bi.SKUAdditionalInfo as sai on sai.ID = s.ID
+	left join bi.BusinessUnit as bu on bu.ID = sai.ID_bi_BusinessUnit
 where s.FlagExclude = 0
 	and (s.ID_mapping_DataSource = 1
 		or s.ID = -1

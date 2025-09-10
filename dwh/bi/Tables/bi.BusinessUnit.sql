@@ -6,6 +6,5 @@ create table [bi].[BusinessUnit] (
 	[MDT_ID_PrincipalCreatedBy] int not null,
 	[MDT_FlagActive] bit not null,
 	[MDT_DateDeleted] datetime null,
-	constraint [PK_dwh_BusinessUnit] primary key clustered ([ID] asc) with (STATISTICS_NORECOMPUTE = ON),
-	constraint [UK_dwh_BusinessUnit_Code] unique nonclustered ([Code] asc) with (STATISTICS_NORECOMPUTE = ON)
+	constraint [PK_dwh_BusinessUnit] primary key clustered ([ID] asc) with (STATISTICS_NORECOMPUTE = ON)
 );

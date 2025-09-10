@@ -1,0 +1,7 @@
+tables:
+  Product:
+    columns:
+      BusinessUnit:
+        description: Бизнес-юнит
+        dataType: String
+        sourceColumn: BusinessUnit

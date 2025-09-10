@@ -1,5 +1,0 @@
-tables:
-  Sales to POS:
-    partitions:
-      Sales to POS:
-        source: {}
