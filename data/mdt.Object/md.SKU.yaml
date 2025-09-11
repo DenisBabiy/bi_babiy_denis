@@ -1,0 +1,11 @@
+audit_Enabled: True
+Fields:
+  SKUAdditionalInfo_o2o:
+    ID_ObjectFieldKind: o2o
+    ID_RefObject: md_bi.SKUAdditionalInfo
+    ID_RefObjectField: ID
+    SortOrder: 2
+Title_en: SKU
+Title_ru: SKU
+TitlePlural_en: SKUs
+TitlePlural_ru: SKU
